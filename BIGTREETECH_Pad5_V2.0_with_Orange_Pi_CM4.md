@@ -13,3 +13,8 @@ The device boots directly from the MicroSD card if it's inserted.
 The desktop version of Armbian works fine on the device. Touchscreen works out of the box. Wifi and Bluetooth work on CM4, provided that you attach an external antenna.
 
 The Pad5 manual says that the power button works only for CM5, but it kinda works in this setup. Be aware that it just abruptly power-cycles the board.
+
+External HDMI port on the Pad5 does not work, although Armbian supports it (tested by plugging the CM4 into a standard CM4 carrier board).
+
+Under stress tests (using `strtess-ng --all 4`) the CPU survives without a heatsink, reaching 85C. Probably, a heatsink would still be nice.
+
