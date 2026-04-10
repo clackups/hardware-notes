@@ -6,7 +6,7 @@ Armbian has a board profile for Orange Pi 3B (`orangepi3b`), which is quite iden
 
 [BIGTREETECH Pad5 V2.0](https://github.com/bigtreetech/Pad5/tree/master/Pad5-V2.0) is a carrier device for RPI CM4/CM5, providing a 5-inch 800×480 LCD screen with a bunch of peripherals.
 
-The Pad5 manual mentions that USB3.0 is only available for CM5. In my tests, the two USB3.0 ports did not even react on plugging in devices.  The two USB2.0 ports worked fine.
+The Pad5 manual mentions that USB3.0 is only available for CM5. In my tests, the two USB3.0 ports did not even react on plugging in devices.  The two USB2.0 ports worked fine. The USB-C port provides power and access to the built-in USB-Serial adapter. 
 
 The device boots directly from the MicroSD card if it's inserted.
 
