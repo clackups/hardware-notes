@@ -8,4 +8,8 @@ Armbian has a board profile for Orange Pi 3B (`orangepi3b`), which is quite iden
 
 The Pad5 manual mentions that USB3.0 is only available for CM5. In my tests, the two USB3.0 ports did not even react on plugging in devices.  The two USB2.0 ports worked fine.
 
-The desktop version of Armbian works fine on the device.
+The device boots directly from the MicroSD card if it's inserted.
+
+The desktop version of Armbian works fine on the device. Touchscreen works out of the box. Wifi and Bluetooth work on CM4, provided that you attach an external antenna.
+
+The Pad5 manual says that the power button works only for CM5, but it kinda works in this setup. Be aware that it just abruptly power-cycles the board.
