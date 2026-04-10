@@ -18,5 +18,7 @@ External HDMI port on the Pad5 does not work (the CM4 board supports only one di
 
 Under stress tests (using `strtess-ng --all 4`) the CPU survives without a heatsink, reaching 85C. Probably, a heatsink would still be nice.
 
-The device consumes about 3W when idle, and up to 7-8W during desktop activities. At the start, it showed a few short spikes of over 30W consumption, which I can't explain and they are difficult to reproduce.
+The device consumes about 3W when idle, and up to 7-8W during desktop activities. At booting in desktop mode, the device shows a short spike in consumption of up to 34W. After shutting down the board, the device still consumes 1W.
+
+After shutting down, none of existing buttons can power it back on, so you need to unplug and plug the power back in.
 
